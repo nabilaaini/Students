@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96ED8BC21533CADC00DC7E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ED8BC11533CADC00DC7E10 /* UIKit.framework */; };
+		96ED8BC41533CADC00DC7E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ED8BC31533CADC00DC7E10 /* Foundation.framework */; };
+		96ED8BC61533CADC00DC7E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96ED8BC51533CADC00DC7E10 /* CoreGraphics.framework */; };
+		96ED8BCC1533CADC00DC7E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96ED8BCA1533CADC00DC7E10 /* InfoPlist.strings */; };
+		96ED8BCF1533CADC00DC7E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED8BCE1533CADC00DC7E10 /* main.m */; };
+		96ED8BD21533CADC00DC7E10 /* PelajarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED8BD11533CADC00DC7E10 /* PelajarAppDelegate.m */; };
+		96ED8BD51533CADC00DC7E10 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ED8BD31533CADC00DC7E10 /* MainWindow.xib */; };
+		96ED8BD81533CADC00DC7E10 /* PelajarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED8BD71533CADC00DC7E10 /* PelajarViewController.m */; };
+		96ED8BDB1533CADC00DC7E10 /* PelajarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ED8BD91533CADC00DC7E10 /* PelajarViewController.xib */; };
+		96ED8BEC1533CB5000DC7E10 /* StudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED8BEA1533CB5000DC7E10 /* StudentViewController.m */; };
+		96ED8BED1533CB5000DC7E10 /* StudentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ED8BEB1533CB5000DC7E10 /* StudentViewController.xib */; };
+		96ED8C291533DF7200DC7E10 /* AddStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED8C271533DF7200DC7E10 /* AddStudentViewController.m */; };
+		96ED8C2A1533DF7200DC7E10 /* AddStudentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ED8C281533DF7200DC7E10 /* AddStudentViewController.xib */; };
+		96ED8C401533E69400DC7E10 /* Students.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96ED8C3F1533E69400DC7E10 /* Students.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96ED8BBD1533CADC00DC7E10 /* Pelajar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pelajar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ED8BC11533CADC00DC7E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96ED8BC31533CADC00DC7E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96ED8BC51533CADC00DC7E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96ED8BC91533CADC00DC7E10 /* Pelajar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pelajar-Info.plist"; sourceTree = "<group>"; };
+		96ED8BCB1533CADC00DC7E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96ED8BCD1533CADC00DC7E10 /* Pelajar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pelajar-Prefix.pch"; sourceTree = "<group>"; };
+		96ED8BCE1533CADC00DC7E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96ED8BD01533CADC00DC7E10 /* PelajarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PelajarAppDelegate.h; sourceTree = "<group>"; };
+		96ED8BD11533CADC00DC7E10 /* PelajarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PelajarAppDelegate.m; sourceTree = "<group>"; };
+		96ED8BD41533CADC00DC7E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		96ED8BD61533CADC00DC7E10 /* PelajarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PelajarViewController.h; sourceTree = "<group>"; };
+		96ED8BD71533CADC00DC7E10 /* PelajarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PelajarViewController.m; sourceTree = "<group>"; };
+		96ED8BDA1533CADC00DC7E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PelajarViewController.xib; sourceTree = "<group>"; };
+		96ED8BE91533CB5000DC7E10 /* StudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentViewController.h; sourceTree = "<group>"; };
+		96ED8BEA1533CB5000DC7E10 /* StudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentViewController.m; sourceTree = "<group>"; };
+		96ED8BEB1533CB5000DC7E10 /* StudentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentViewController.xib; sourceTree = "<group>"; };
+		96ED8C261533DF7200DC7E10 /* AddStudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddStudentViewController.h; sourceTree = "<group>"; };
+		96ED8C271533DF7200DC7E10 /* AddStudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStudentViewController.m; sourceTree = "<group>"; };
+		96ED8C281533DF7200DC7E10 /* AddStudentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddStudentViewController.xib; sourceTree = "<group>"; };
+		96ED8C3F1533E69400DC7E10 /* Students.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Students.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96ED8BBA1533CADC00DC7E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ED8BC21533CADC00DC7E10 /* UIKit.framework in Frameworks */,
+				96ED8BC41533CADC00DC7E10 /* Foundation.framework in Frameworks */,
+				96ED8BC61533CADC00DC7E10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96ED8BB21533CADC00DC7E10 = {
+			isa = PBXGroup;
+			children = (
+				96ED8BC71533CADC00DC7E10 /* Pelajar */,
+				96ED8BC01533CADC00DC7E10 /* Frameworks */,
+				96ED8BBE1533CADC00DC7E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96ED8BBE1533CADC00DC7E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96ED8BBD1533CADC00DC7E10 /* Pelajar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96ED8BC01533CADC00DC7E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96ED8BC11533CADC00DC7E10 /* UIKit.framework */,
+				96ED8BC31533CADC00DC7E10 /* Foundation.framework */,
+				96ED8BC51533CADC00DC7E10 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96ED8BC71533CADC00DC7E10 /* Pelajar */ = {
+			isa = PBXGroup;
+			children = (
+				96ED8BD01533CADC00DC7E10 /* PelajarAppDelegate.h */,
+				96ED8BD11533CADC00DC7E10 /* PelajarAppDelegate.m */,
+				96ED8BD31533CADC00DC7E10 /* MainWindow.xib */,
+				96ED8BD61533CADC00DC7E10 /* PelajarViewController.h */,
+				96ED8BD71533CADC00DC7E10 /* PelajarViewController.m */,
+				96ED8BD91533CADC00DC7E10 /* PelajarViewController.xib */,
+				96ED8BC81533CADC00DC7E10 /* Supporting Files */,
+				96ED8BE91533CB5000DC7E10 /* StudentViewController.h */,
+				96ED8BEA1533CB5000DC7E10 /* StudentViewController.m */,
+				96ED8BEB1533CB5000DC7E10 /* StudentViewController.xib */,
+				96ED8C261533DF7200DC7E10 /* AddStudentViewController.h */,
+				96ED8C271533DF7200DC7E10 /* AddStudentViewController.m */,
+				96ED8C281533DF7200DC7E10 /* AddStudentViewController.xib */,
+			);
+			path = Pelajar;
+			sourceTree = "<group>";
+		};
+		96ED8BC81533CADC00DC7E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96ED8BC91533CADC00DC7E10 /* Pelajar-Info.plist */,
+				96ED8BCA1533CADC00DC7E10 /* InfoPlist.strings */,
+				96ED8BCD1533CADC00DC7E10 /* Pelajar-Prefix.pch */,
+				96ED8BCE1533CADC00DC7E10 /* main.m */,
+				96ED8C3F1533E69400DC7E10 /* Students.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96ED8BBC1533CADC00DC7E10 /* Pelajar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ED8BDE1533CADD00DC7E10 /* Build configuration list for PBXNativeTarget "Pelajar" */;
+			buildPhases = (
+				96ED8BB91533CADC00DC7E10 /* Sources */,
+				96ED8BBA1533CADC00DC7E10 /* Frameworks */,
+				96ED8BBB1533CADC00DC7E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pelajar;
+			productName = Pelajar;
+			productReference = 96ED8BBD1533CADC00DC7E10 /* Pelajar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96ED8BB41533CADC00DC7E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = TMRND;
+			};
+			buildConfigurationList = 96ED8BB71533CADC00DC7E10 /* Build configuration list for PBXProject "Pelajar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96ED8BB21533CADC00DC7E10;
+			productRefGroup = 96ED8BBE1533CADC00DC7E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96ED8BBC1533CADC00DC7E10 /* Pelajar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96ED8BBB1533CADC00DC7E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ED8BCC1533CADC00DC7E10 /* InfoPlist.strings in Resources */,
+				96ED8BD51533CADC00DC7E10 /* MainWindow.xib in Resources */,
+				96ED8BDB1533CADC00DC7E10 /* PelajarViewController.xib in Resources */,
+				96ED8BED1533CB5000DC7E10 /* StudentViewController.xib in Resources */,
+				96ED8C2A1533DF7200DC7E10 /* AddStudentViewController.xib in Resources */,
+				96ED8C401533E69400DC7E10 /* Students.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96ED8BB91533CADC00DC7E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ED8BCF1533CADC00DC7E10 /* main.m in Sources */,
+				96ED8BD21533CADC00DC7E10 /* PelajarAppDelegate.m in Sources */,
+				96ED8BD81533CADC00DC7E10 /* PelajarViewController.m in Sources */,
+				96ED8BEC1533CB5000DC7E10 /* StudentViewController.m in Sources */,
+				96ED8C291533DF7200DC7E10 /* AddStudentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96ED8BCA1533CADC00DC7E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96ED8BCB1533CADC00DC7E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96ED8BD31533CADC00DC7E10 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96ED8BD41533CADC00DC7E10 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		96ED8BD91533CADC00DC7E10 /* PelajarViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96ED8BDA1533CADC00DC7E10 /* en */,
+			);
+			name = PelajarViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96ED8BDC1533CADD00DC7E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96ED8BDD1533CADD00DC7E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		96ED8BDF1533CADD00DC7E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pelajar/Pelajar-Prefix.pch";
+				INFOPLIST_FILE = "Pelajar/Pelajar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96ED8BE01533CADD00DC7E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pelajar/Pelajar-Prefix.pch";
+				INFOPLIST_FILE = "Pelajar/Pelajar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96ED8BB71533CADC00DC7E10 /* Build configuration list for PBXProject "Pelajar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ED8BDC1533CADD00DC7E10 /* Debug */,
+				96ED8BDD1533CADD00DC7E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ED8BDE1533CADD00DC7E10 /* Build configuration list for PBXNativeTarget "Pelajar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ED8BDF1533CADD00DC7E10 /* Debug */,
+				96ED8BE01533CADD00DC7E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96ED8BB41533CADC00DC7E10 /* Project object */;
+}
